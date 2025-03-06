@@ -1,1 +1,9 @@
-spring.application.name=springboot-webflux
+spring:
+  application:
+    name: springboot-webflux
+  data:
+    mongodb:
+      database: product_db
+      host: localhost
+      port: 27017
+
